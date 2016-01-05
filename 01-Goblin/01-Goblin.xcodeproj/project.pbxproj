@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCD6A39A1C37F8830096CBB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD6A3991C37F8830096CBB2 /* main.m */; };
+		CCD6A39D1C37F8830096CBB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD6A39C1C37F8830096CBB2 /* AppDelegate.m */; };
+		CCD6A3A01C37F8830096CBB2 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD6A39F1C37F8830096CBB2 /* GameScene.m */; };
+		CCD6A3A21C37F8830096CBB2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CCD6A3A11C37F8830096CBB2 /* GameScene.sks */; };
+		CCD6A3A51C37F8830096CBB2 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD6A3A41C37F8830096CBB2 /* GameViewController.m */; };
+		CCD6A3A81C37F8830096CBB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD6A3A61C37F8830096CBB2 /* Main.storyboard */; };
+		CCD6A3AA1C37F8830096CBB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCD6A3A91C37F8830096CBB2 /* Assets.xcassets */; };
+		CCD6A3AD1C37F8830096CBB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD6A3AB1C37F8830096CBB2 /* LaunchScreen.storyboard */; };
+		CCD6A3B81C37F8830096CBB2 /* _1_GoblinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD6A3B71C37F8830096CBB2 /* _1_GoblinTests.m */; };
+		CCD6A3C31C37F8830096CBB2 /* _1_GoblinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD6A3C21C37F8830096CBB2 /* _1_GoblinUITests.m */; };
+		CCD6A3D31C37F89F0096CBB2 /* Goblin_Idle.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CCD6A3D11C37F89F0096CBB2 /* Goblin_Idle.atlas */; };
+		CCD6A3D41C37F89F0096CBB2 /* Goblin_Walk.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CCD6A3D21C37F89F0096CBB2 /* Goblin_Walk.atlas */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCD6A3B41C37F8830096CBB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD6A38D1C37F8830096CBB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCD6A3941C37F8830096CBB2;
+			remoteInfo = "01-Goblin";
+		};
+		CCD6A3BF1C37F8830096CBB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD6A38D1C37F8830096CBB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCD6A3941C37F8830096CBB2;
+			remoteInfo = "01-Goblin";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCD6A3951C37F8830096CBB2 /* 01-Goblin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-Goblin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD6A3991C37F8830096CBB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCD6A39B1C37F8830096CBB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCD6A39C1C37F8830096CBB2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCD6A39E1C37F8830096CBB2 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		CCD6A39F1C37F8830096CBB2 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		CCD6A3A11C37F8830096CBB2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		CCD6A3A31C37F8830096CBB2 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		CCD6A3A41C37F8830096CBB2 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		CCD6A3A71C37F8830096CBB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCD6A3A91C37F8830096CBB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCD6A3AC1C37F8830096CBB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCD6A3AE1C37F8830096CBB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD6A3B31C37F8830096CBB2 /* 01-GoblinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-GoblinTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD6A3B71C37F8830096CBB2 /* _1_GoblinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1_GoblinTests.m; sourceTree = "<group>"; };
+		CCD6A3B91C37F8830096CBB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD6A3BE1C37F8830096CBB2 /* 01-GoblinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-GoblinUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD6A3C21C37F8830096CBB2 /* _1_GoblinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1_GoblinUITests.m; sourceTree = "<group>"; };
+		CCD6A3C41C37F8830096CBB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD6A3D11C37F89F0096CBB2 /* Goblin_Idle.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Goblin_Idle.atlas; sourceTree = "<group>"; };
+		CCD6A3D21C37F89F0096CBB2 /* Goblin_Walk.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Goblin_Walk.atlas; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCD6A3921C37F8830096CBB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD6A3B01C37F8830096CBB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD6A3BB1C37F8830096CBB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCD6A38C1C37F8830096CBB2 = {
+			isa = PBXGroup;
+			children = (
+				CCD6A3971C37F8830096CBB2 /* 01-Goblin */,
+				CCD6A3B61C37F8830096CBB2 /* 01-GoblinTests */,
+				CCD6A3C11C37F8830096CBB2 /* 01-GoblinUITests */,
+				CCD6A3961C37F8830096CBB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCD6A3961C37F8830096CBB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCD6A3951C37F8830096CBB2 /* 01-Goblin.app */,
+				CCD6A3B31C37F8830096CBB2 /* 01-GoblinTests.xctest */,
+				CCD6A3BE1C37F8830096CBB2 /* 01-GoblinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCD6A3971C37F8830096CBB2 /* 01-Goblin */ = {
+			isa = PBXGroup;
+			children = (
+				CCD6A3D01C37F89F0096CBB2 /* 小妖精 */,
+				CCD6A39B1C37F8830096CBB2 /* AppDelegate.h */,
+				CCD6A39C1C37F8830096CBB2 /* AppDelegate.m */,
+				CCD6A39E1C37F8830096CBB2 /* GameScene.h */,
+				CCD6A39F1C37F8830096CBB2 /* GameScene.m */,
+				CCD6A3A11C37F8830096CBB2 /* GameScene.sks */,
+				CCD6A3A31C37F8830096CBB2 /* GameViewController.h */,
+				CCD6A3A41C37F8830096CBB2 /* GameViewController.m */,
+				CCD6A3A61C37F8830096CBB2 /* Main.storyboard */,
+				CCD6A3A91C37F8830096CBB2 /* Assets.xcassets */,
+				CCD6A3AB1C37F8830096CBB2 /* LaunchScreen.storyboard */,
+				CCD6A3AE1C37F8830096CBB2 /* Info.plist */,
+				CCD6A3981C37F8830096CBB2 /* Supporting Files */,
+			);
+			path = "01-Goblin";
+			sourceTree = "<group>";
+		};
+		CCD6A3981C37F8830096CBB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCD6A3991C37F8830096CBB2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCD6A3B61C37F8830096CBB2 /* 01-GoblinTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCD6A3B71C37F8830096CBB2 /* _1_GoblinTests.m */,
+				CCD6A3B91C37F8830096CBB2 /* Info.plist */,
+			);
+			path = "01-GoblinTests";
+			sourceTree = "<group>";
+		};
+		CCD6A3C11C37F8830096CBB2 /* 01-GoblinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCD6A3C21C37F8830096CBB2 /* _1_GoblinUITests.m */,
+				CCD6A3C41C37F8830096CBB2 /* Info.plist */,
+			);
+			path = "01-GoblinUITests";
+			sourceTree = "<group>";
+		};
+		CCD6A3D01C37F89F0096CBB2 /* 小妖精 */ = {
+			isa = PBXGroup;
+			children = (
+				CCD6A3D11C37F89F0096CBB2 /* Goblin_Idle.atlas */,
+				CCD6A3D21C37F89F0096CBB2 /* Goblin_Walk.atlas */,
+			);
+			path = "小妖精";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCD6A3941C37F8830096CBB2 /* 01-Goblin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD6A3C71C37F8830096CBB2 /* Build configuration list for PBXNativeTarget "01-Goblin" */;
+			buildPhases = (
+				CCD6A3911C37F8830096CBB2 /* Sources */,
+				CCD6A3921C37F8830096CBB2 /* Frameworks */,
+				CCD6A3931C37F8830096CBB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "01-Goblin";
+			productName = "01-Goblin";
+			productReference = CCD6A3951C37F8830096CBB2 /* 01-Goblin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCD6A3B21C37F8830096CBB2 /* 01-GoblinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD6A3CA1C37F8830096CBB2 /* Build configuration list for PBXNativeTarget "01-GoblinTests" */;
+			buildPhases = (
+				CCD6A3AF1C37F8830096CBB2 /* Sources */,
+				CCD6A3B01C37F8830096CBB2 /* Frameworks */,
+				CCD6A3B11C37F8830096CBB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCD6A3B51C37F8830096CBB2 /* PBXTargetDependency */,
+			);
+			name = "01-GoblinTests";
+			productName = "01-GoblinTests";
+			productReference = CCD6A3B31C37F8830096CBB2 /* 01-GoblinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCD6A3BD1C37F8830096CBB2 /* 01-GoblinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD6A3CD1C37F8830096CBB2 /* Build configuration list for PBXNativeTarget "01-GoblinUITests" */;
+			buildPhases = (
+				CCD6A3BA1C37F8830096CBB2 /* Sources */,
+				CCD6A3BB1C37F8830096CBB2 /* Frameworks */,
+				CCD6A3BC1C37F8830096CBB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCD6A3C01C37F8830096CBB2 /* PBXTargetDependency */,
+			);
+			name = "01-GoblinUITests";
+			productName = "01-GoblinUITests";
+			productReference = CCD6A3BE1C37F8830096CBB2 /* 01-GoblinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCD6A38D1C37F8830096CBB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = qingyun;
+				TargetAttributes = {
+					CCD6A3941C37F8830096CBB2 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					CCD6A3B21C37F8830096CBB2 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CCD6A3941C37F8830096CBB2;
+					};
+					CCD6A3BD1C37F8830096CBB2 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CCD6A3941C37F8830096CBB2;
+					};
+				};
+			};
+			buildConfigurationList = CCD6A3901C37F8830096CBB2 /* Build configuration list for PBXProject "01-Goblin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCD6A38C1C37F8830096CBB2;
+			productRefGroup = CCD6A3961C37F8830096CBB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCD6A3941C37F8830096CBB2 /* 01-Goblin */,
+				CCD6A3B21C37F8830096CBB2 /* 01-GoblinTests */,
+				CCD6A3BD1C37F8830096CBB2 /* 01-GoblinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCD6A3931C37F8830096CBB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD6A3A21C37F8830096CBB2 /* GameScene.sks in Resources */,
+				CCD6A3D41C37F89F0096CBB2 /* Goblin_Walk.atlas in Resources */,
+				CCD6A3AD1C37F8830096CBB2 /* LaunchScreen.storyboard in Resources */,
+				CCD6A3AA1C37F8830096CBB2 /* Assets.xcassets in Resources */,
+				CCD6A3A81C37F8830096CBB2 /* Main.storyboard in Resources */,
+				CCD6A3D31C37F89F0096CBB2 /* Goblin_Idle.atlas in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD6A3B11C37F8830096CBB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD6A3BC1C37F8830096CBB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCD6A3911C37F8830096CBB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD6A3A51C37F8830096CBB2 /* GameViewController.m in Sources */,
+				CCD6A39D1C37F8830096CBB2 /* AppDelegate.m in Sources */,
+				CCD6A3A01C37F8830096CBB2 /* GameScene.m in Sources */,
+				CCD6A39A1C37F8830096CBB2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD6A3AF1C37F8830096CBB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD6A3B81C37F8830096CBB2 /* _1_GoblinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD6A3BA1C37F8830096CBB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD6A3C31C37F8830096CBB2 /* _1_GoblinUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCD6A3B51C37F8830096CBB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCD6A3941C37F8830096CBB2 /* 01-Goblin */;
+			targetProxy = CCD6A3B41C37F8830096CBB2 /* PBXContainerItemProxy */;
+		};
+		CCD6A3C01C37F8830096CBB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCD6A3941C37F8830096CBB2 /* 01-Goblin */;
+			targetProxy = CCD6A3BF1C37F8830096CBB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCD6A3A61C37F8830096CBB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCD6A3A71C37F8830096CBB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCD6A3AB1C37F8830096CBB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCD6A3AC1C37F8830096CBB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCD6A3C51C37F8830096CBB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCD6A3C61C37F8830096CBB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCD6A3C81C37F8830096CBB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "01-Goblin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jy.-1-Goblin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCD6A3C91C37F8830096CBB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "01-Goblin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jy.-1-Goblin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCD6A3CB1C37F8830096CBB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "01-GoblinTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jy.-1-GoblinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01-Goblin.app/01-Goblin";
+			};
+			name = Debug;
+		};
+		CCD6A3CC1C37F8830096CBB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "01-GoblinTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jy.-1-GoblinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01-Goblin.app/01-Goblin";
+			};
+			name = Release;
+		};
+		CCD6A3CE1C37F8830096CBB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "01-GoblinUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jy.-1-GoblinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "01-Goblin";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CCD6A3CF1C37F8830096CBB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "01-GoblinUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jy.-1-GoblinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "01-Goblin";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCD6A3901C37F8830096CBB2 /* Build configuration list for PBXProject "01-Goblin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD6A3C51C37F8830096CBB2 /* Debug */,
+				CCD6A3C61C37F8830096CBB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCD6A3C71C37F8830096CBB2 /* Build configuration list for PBXNativeTarget "01-Goblin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD6A3C81C37F8830096CBB2 /* Debug */,
+				CCD6A3C91C37F8830096CBB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCD6A3CA1C37F8830096CBB2 /* Build configuration list for PBXNativeTarget "01-GoblinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD6A3CB1C37F8830096CBB2 /* Debug */,
+				CCD6A3CC1C37F8830096CBB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCD6A3CD1C37F8830096CBB2 /* Build configuration list for PBXNativeTarget "01-GoblinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD6A3CE1C37F8830096CBB2 /* Debug */,
+				CCD6A3CF1C37F8830096CBB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCD6A38D1C37F8830096CBB2 /* Project object */;
+}
